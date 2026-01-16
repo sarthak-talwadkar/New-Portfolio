@@ -1,0 +1,72 @@
+.aboutMe {
+
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+}
+
+.imageWrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.profileImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.textWrapper {
+  flex: 2;
+  max-width: 1500px;
+  text-align: left;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  line-height: 1.6;
+
+}
+
+.highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.highlights li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+}
+
+.highlights li::before {
+  content: "✔";
+  color: #10baee;
+  margin-right: 10px;
+  font-weight: bold;
+}
